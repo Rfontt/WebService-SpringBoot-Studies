@@ -22,4 +22,8 @@ public class UserService {
     public UserBean findOne(int id) {
         return dao.findOne(id);
     }
+
+    public UserBean deleteByID(int id) {
+        return dao.deleteByID(id);
+    }
 }
